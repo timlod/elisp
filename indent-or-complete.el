@@ -1,6 +1,0 @@
-(defun indent-or-complete ()
-    (interactive)
-    (if (looking-at "\\_>")
-        (company-complete-common)
-      (indent-according-to-mode)))
-(provide 'indent-or-complete)
